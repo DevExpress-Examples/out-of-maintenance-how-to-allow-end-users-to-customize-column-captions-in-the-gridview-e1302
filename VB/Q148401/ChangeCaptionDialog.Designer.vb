@@ -1,6 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
-Namespace Q148401
+﻿Namespace Q148401
 	Partial Public Class ChangeCaptionDialog
 		''' <summary>
 		''' Required designer variable.
@@ -55,7 +53,8 @@ Namespace Q148401
 			Me.button1.TabIndex = 2
 			Me.button1.Text = "Apply"
 			Me.button1.UseVisualStyleBackColor = True
-'			Me.button1.Click += New System.EventHandler(Me.OnApplyClick);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.button1.Click += new System.EventHandler(this.OnApplyClick);
 			' 
 			' button2
 			' 
@@ -65,7 +64,8 @@ Namespace Q148401
 			Me.button2.TabIndex = 3
 			Me.button2.Text = "Cancel"
 			Me.button2.UseVisualStyleBackColor = True
-'			Me.button2.Click += New System.EventHandler(Me.OnCancelClick);
+'INSTANT VB NOTE: The following InitializeComponent event wireup was converted to a 'Handles' clause:
+'ORIGINAL LINE: this.button2.Click += new System.EventHandler(this.OnCancelClick);
 			' 
 			' ChangeCaptionDialog
 			' 

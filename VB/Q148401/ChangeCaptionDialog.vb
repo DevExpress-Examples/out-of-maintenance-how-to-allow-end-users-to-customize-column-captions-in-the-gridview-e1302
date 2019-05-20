@@ -1,5 +1,4 @@
-Imports Microsoft.VisualBasic
-Imports System
+﻿Imports System
 Imports System.Collections.Generic
 Imports System.ComponentModel
 Imports System.Data
@@ -11,6 +10,7 @@ Imports DevExpress.XtraGrid.Columns
 Namespace Q148401
 	Partial Public Class ChangeCaptionDialog
 		Inherits Form
+
 		Private column As GridColumn
 
 		Public Sub New()
