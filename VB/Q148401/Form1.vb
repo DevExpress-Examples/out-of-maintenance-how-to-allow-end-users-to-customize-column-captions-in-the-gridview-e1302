@@ -78,7 +78,7 @@ Namespace Q148401
 		End Sub
 
 		Private Sub OnDXMenuItemClick(ByVal sender As Object, ByVal e As EventArgs)
-			Dim gColumn As GridColumn = DirectCast(DirectCast(sender, DXMenuItem).Tag, GridColumn)
+			Dim gColumn As GridColumn = CType((DirectCast(sender, DXMenuItem)).Tag, GridColumn)
 			Dim gView As GridView = CType(gColumn.View, GridView)
 			Dim columnBounds As Rectangle = CType(gView.GetViewInfo(), GridViewInfo).ColumnsInfo(gColumn).Bounds
 			Dim formLocation As New Point(columnBounds.Left, columnBounds.Bottom)
